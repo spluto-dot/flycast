@@ -286,7 +286,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
 #ifdef LOW_RES
       "320x240",
 #else
-      "1920x1440",
+      "1280x960",
 #endif
    },
    {
@@ -609,7 +609,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
          { "enabled",  NULL },
          { NULL, NULL },
       },
-      "enabled",
+      "disable",
    },
    {
       CORE_OPTION_NAME "_auto_skip_frame",
