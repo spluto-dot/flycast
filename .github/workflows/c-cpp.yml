@@ -152,7 +152,6 @@ jobs:
           path: |
             artifact/bin
             artifact/lib/libretro
-
       - name: Package app (macos)
         run: |
           cd artifact/bin
@@ -197,3 +196,4 @@ jobs:
         env:
           SENTRY_TOKEN: ${{ secrets.SENTRY_TOKEN }}
         if: ${{ env.SENTRY_TOKEN != '' && (matrix.config.name == 'x86_64-w64-mingw32' || matrix.config.name == 'apple-darwin' || matrix.config.name == 'x86_64-pc-linux-gnu') && github.event_name == 'push' }}
+        
