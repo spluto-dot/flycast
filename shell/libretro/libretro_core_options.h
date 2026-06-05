@@ -172,7 +172,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
 #ifdef LOW_END
       "disabled",
 #else
-      "enabled",
+      "disable",
 #endif
    },
    {
@@ -506,7 +506,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
          { "enabled",  NULL },
          { NULL, NULL },
       },
-      "enabled",
+      "disable",
    },
    {
       CORE_OPTION_NAME "_detect_vsync_swap_interval",
@@ -609,7 +609,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
          { "enabled",  NULL },
          { NULL, NULL },
       },
-      "disable",
+      "enabled",
    },
    {
       CORE_OPTION_NAME "_auto_skip_frame",
