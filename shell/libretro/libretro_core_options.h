@@ -172,7 +172,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
 #ifdef LOW_END
       "disabled",
 #else
-      "disable",
+      "enable",
 #endif
    },
    {
@@ -506,7 +506,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
          { "enabled",  NULL },
          { NULL, NULL },
       },
-      "disable",
+      "enable",
    },
    {
       CORE_OPTION_NAME "_detect_vsync_swap_interval",
