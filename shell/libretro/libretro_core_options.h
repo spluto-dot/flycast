@@ -286,7 +286,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
 #ifdef LOW_RES
       "320x240",
 #else
-      "640x480",
+      "1920x1440",
 #endif
    },
    {
