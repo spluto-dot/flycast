@@ -136,14 +136,14 @@ Option<int> MouseSensitivity("", 100);
 Option<int> VirtualGamepadVibration("", 20);
 
 std::array<Option<MapleDeviceType>, 4> MapleMainDevices {
-	Option<MapleDeviceType>("", MDT_NaomiJamma),
-	Option<MapleDeviceType>("", MDT_None),
+	Option<MapleDeviceType>("", MDT_SegaController),
+	Option<MapleDeviceType>("", MDT_SegaController),
 	Option<MapleDeviceType>("", MDT_None),
 	Option<MapleDeviceType>("", MDT_None),
 };
 std::array<std::array<Option<MapleDeviceType>, 2>, 4> MapleExpansionDevices {
-	Option<MapleDeviceType>("", MDT_None),
-	Option<MapleDeviceType>("", MDT_None),
+	Option<MapleDeviceType>("", MDT_SegaVMU),
+	Option<MapleDeviceType>("", MDT_SegaVMU),
 
 	Option<MapleDeviceType>("", MDT_None),
 	Option<MapleDeviceType>("", MDT_None),
