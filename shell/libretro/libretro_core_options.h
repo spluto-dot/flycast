@@ -353,7 +353,7 @@ struct retro_core_option_v2_definition option_defs_us[] = {
 #if defined(LOW_END)
       "per-strip (fast, least accurate)",
 #else
-      "per-triangle (normal)",
+      "Per-Pixel (accurate, but slowest)",
 #endif
    },
 #if defined(HAVE_OIT) || defined(HAVE_VULKAN) || defined(HAVE_D3D11)
